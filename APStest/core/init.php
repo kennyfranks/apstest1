@@ -10,7 +10,7 @@ $GLOBALS['config'] = array (
 
 	'mysql' => array(
 
-		'host' => "/*HOST NAME/ADDRESS HERE*/",
+		'host' => "/*HOST NAME ADDRESS HERE*/",
 
 		'dbname' => "/*DB NAME HERE*/",
 
