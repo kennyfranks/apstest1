@@ -1,0 +1,41 @@
+body{
+	font-family: 'Lexend Zetta', sans-serif;
+	width: 550px;
+	padding: 5px;
+}
+
+h1 {
+	color: black;
+	-webkit-text-fill-color: #f1ede2; /* Will override color (regardless of order) */
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: #0f5f9e;
+	text-align: center;
+}
+
+a {
+	color: black;
+}
+
+thead {
+	color: white;
+	background: #4d8bbe;
+}
+
+tbody tr:nth-child(even) td{
+	background: #e9eef4;
+}
+
+tbody tr:nth-child(odd) td{
+	background: #d0dae8;
+}
+
+th,td {
+	padding: 5px;
+	border: none;
+	text-align: left;
+}
+
+tr,td{
+	width: 250px;
+}
+
